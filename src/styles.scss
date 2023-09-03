@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+//   background: radial-gradient(circle, #091366c4, #030938);
+    background-image: url('assets/imgs/fondo_page.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    color: white;
+}
+
+footer {
+  background-color: beige;
+}

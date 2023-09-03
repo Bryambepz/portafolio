@@ -1,0 +1,64 @@
+.banner-container {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.banner-container img {
+  max-width: 100%;
+}
+
+.main {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-componentes {
+  margin: 1rem;
+  padding: 2rem;
+}
+.section-resumen {
+  max-width: 30%;
+}
+
+.img-persona {
+  border-radius: 10%;
+}
+
+.container-menu {
+  margin: 1rem;
+  max-width: 55%;
+  background-color: #0d303c;
+  border-radius: 10%;
+}
+
+.opcion-menu {
+  margin: 0 2rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+  position: relative;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 50%;
+  background-color: #23647a;
+  transition: width 0.5s ease;
+  transform: translateX(-50%);
+}
+
+a:hover::before {
+  width: 100%;
+}
