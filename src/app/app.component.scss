@@ -17,9 +17,11 @@
 .section-componentes {
   margin: 1rem;
   padding: 2rem;
+  max-width: 40%;
 }
 .section-resumen {
   max-width: 30%;
+  position: relative;
 }
 
 .img-persona {
@@ -28,6 +30,7 @@
 
 .container-menu {
   margin: 1rem;
+  padding: 1rem .5rem;
   max-width: 55%;
   background-color: #0d303c;
   border-radius: 10%;
@@ -36,7 +39,7 @@
 .opcion-menu {
   margin: 0 2rem;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   gap: 1.3rem;
 }
@@ -61,4 +64,8 @@ a::before {
 
 a:hover::before {
   width: 100%;
+}
+
+a:hover{
+  color: #23647a;
 }

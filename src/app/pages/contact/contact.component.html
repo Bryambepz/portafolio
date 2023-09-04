@@ -1,1 +1,26 @@
-<p>contact works!</p>
+<div>
+    <h1>Contactenme</h1>
+    <p>A traves de este formulario te invito a ponerte en contacto conmigo o tambien directamente enviame un correo a
+        <strong><a href="mailto:bryamparra2709@gmail.com">bryamparra2709@gmail.com</a></strong>
+    </p>
+</div>
+
+<div class="container-form">
+    <div class="form">
+        <label>Nombre</label>
+        <input type="text" [(ngModel)]="contacto.nombre" placeholder="Ingrese un Nombre">
+    </div>
+    <div class="form">
+        <label>Email</label>
+        <input type="email" [(ngModel)]="contacto.email" placeholder="Ingrese un correo válido">
+    </div>
+    <div class="form">
+        <label>Mensaje</label>
+        <textarea name="mensaje" [(ngModel)]="contacto.mensaje" cols="30" rows="10"></textarea>
+        <!-- <p-editor [(ngModel)]="text" [style]="{ height: '120px' }"></p-editor> -->
+    </div>
+    <div class="boton">
+        <button (click)="enviar()">Enviar Mensaje</button>
+    </div>
+
+</div>

@@ -1,0 +1,55 @@
+a {
+    text-decoration: none;
+    color: #3476af;
+}
+
+input, textarea{
+    margin-top: 1.3rem;
+    background-color: transparent;
+    width: 100%;
+    height: 2.5rem;
+    border: 2px solid #012423;
+    border-radius: 7px;
+    color: #ffffff;
+}
+
+textarea {
+    height: 10rem;
+}
+
+label {
+    text-transform: uppercase;
+    color: #ffffffb7;
+}
+
+input:focus, textarea:focus {
+    margin-top: 1.3rem;
+    background-color: #012423;
+    width: 100%;
+    // height: 2.5rem;
+    border: 2px #012423;
+    border-radius: 7px;
+    color: #ffffff;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    border-radius: .7rem;
+    background-color: #09252c;
+    color: #ffffffd0;
+    border: none;
+}
+
+button:hover{
+    background-color: #053b47;
+}
+
+.form {
+    margin: 2rem 0;
+}
+
+.boton {
+    display: flex;
+    justify-content: flex-end;
+}
