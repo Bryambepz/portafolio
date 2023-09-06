@@ -30,7 +30,7 @@
 
 .container-menu {
   margin: 1rem;
-  padding: 1rem .5rem;
+  padding: 1rem 0.5rem;
   max-width: 55%;
   background-color: #0d303c;
   border-radius: 10%;
@@ -44,13 +44,13 @@
   gap: 1.3rem;
 }
 
-a {
+.container-menu a {
   text-decoration: none;
   color: #ffff;
   position: relative;
 }
 
-a::before {
+.container-menu a::before {
   content: "";
   position: absolute;
   width: 0;
@@ -62,10 +62,52 @@ a::before {
   transform: translateX(-50%);
 }
 
-a:hover::before {
+.container-menu a:hover::before {
   width: 100%;
 }
 
-a:hover{
+.container-menu a:hover {
   color: #23647a;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  // background-color: #23647a;
+  // background: linear-gradient(to top, rgba(255, 255, 255, 0.9) 0%, rgba(0, 0, 0, 0.7) 100%);
+  background: linear-gradient(
+    to top,
+    rgba(30, 61, 72, 0.9) 0%,
+    rgba(24, 48, 58, 0.9) 20%,
+    rgba(10, 28, 34, 1) 90%
+  );
+  color: #fff; 
+  background-size: cover;
+  padding: 20px; /* Espaciado interior del footer */
+  padding: 0.5rem 1.5rem;
+  box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer_links {
+  margin: auto;
+  display: flex;
+  margin-right: 2rem;
+  gap: 1.3rem;
+}
+
+.footer_links img{
+  transition: transform 0.3s ease;
+}
+
+#git:hover img{
+  transform: scale(1.3);
+}
+
+#lnkd:hover img{
+  transform: scale(1.3);
+}
+
+#gmail:hover img{
+  transform: scale(1.3);
 }
