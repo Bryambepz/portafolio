@@ -87,3 +87,19 @@ p {
   border-radius: 1rem;
   width: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .lenguajes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
+
+@media screen and (max-width: 520px) {
+  .lenguajes {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}

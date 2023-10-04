@@ -19,7 +19,7 @@ textarea {
 
 label {
     text-transform: uppercase;
-    color: #ffffffb7;
+    color: #ffffffdd;
 }
 
 input:focus, textarea:focus {
@@ -52,4 +52,9 @@ button:hover{
 .boton {
     display: flex;
     justify-content: flex-end;
+}
+
+.redes-contacto {
+    display: flex;
+    gap:1rem;
 }
