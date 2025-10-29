@@ -7,10 +7,14 @@ a {
     height: auto;
 }
 
-.container_cards {
+.container_card {
+  flex: 1;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  min-height: 100%;
+  margin: 1rem 4rem;
 }
 
 p {
@@ -26,7 +30,7 @@ p {
 
 .container_descrip {
   position: relative;
-  display: inline-block;
+  display: flex;
 }
 
 .img {
@@ -73,11 +77,11 @@ p {
 
 .container_descrip:hover .img {
   transform: scale(1.5);
-  transform-origin: center center;
+  transform-origin: -50%;
   opacity: 0.5;
   margin-top: 2rem;
   margin-bottom: 4rem;
-  margin-left: 7rem;
+  margin-right: 7em;
 }
 
 .container_descrip:hover .text {
